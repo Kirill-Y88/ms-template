@@ -1,10 +1,10 @@
-package y88.kirill.msservisehystrix;
+package y88.kirill.msclienthystrix;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MsServiseHystrixApplicationTests {
+class MsClientHystrixApplicationTests {
 
     @Test
     void contextLoads() {
