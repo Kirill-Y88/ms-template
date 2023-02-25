@@ -41,7 +41,7 @@ public class ClientHystrixController {
     @GetMapping("all2")
     List<String> getAll2(){
         List<String> tempString = new ArrayList<>(list);
-        List<String> anotherList = restTemplate.getForObject("http://ms-client-hystrix/all", List.class);
+        List<String> anotherList = restTemplate.getForObject("http://ms-client-hystrix/client1/all", List.class);
         System.out.println(anotherList.toString());
         tempString.addAll(anotherList);
         return tempString;
