@@ -2,6 +2,16 @@ server:
   port: 5556
   servlet:
     context-path: /cloud
+
+logging:
+  level:
+    reactor:
+      netty: INFO
+    org:
+      springframework:
+        cloud:
+          gateway: TRACE
+
 eureka:
   client:
     registerWithEureka: true
