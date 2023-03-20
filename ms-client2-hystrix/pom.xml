@@ -48,7 +48,15 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+
         </dependency>
+        <dependency>
+            <groupId>y88.kirill</groupId>
+            <artifactId>feign</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+
     </dependencies>
     <dependencyManagement>
         <dependencies>

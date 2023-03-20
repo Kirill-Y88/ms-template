@@ -31,7 +31,11 @@
         </dependency>
 
 
-
+        <dependency>
+            <groupId>y88.kirill</groupId>
+            <artifactId>feign</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
 
 
 
